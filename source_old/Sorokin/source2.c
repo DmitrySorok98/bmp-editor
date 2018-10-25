@@ -10,6 +10,7 @@ enum colors {blue, green, red};
 typedef struct{BYTE blue ; BYTE green; BYTE red;} PIXEL;
 main()
 {
+/*Obyavlenie peremennih dlya izobrah*/
     char type[2];  
     int size;
     int res;
