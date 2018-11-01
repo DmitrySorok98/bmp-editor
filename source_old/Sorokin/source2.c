@@ -57,7 +57,7 @@ for(i=0; i<h ; i++)
     fwrite(&new_w, 4, 1, fout);
     fwrite(&h, 4, 1, fout);
     fwrite(end, 4, 7, fout);
-/*rabochii kod (rastagivaet izobrah v 3 raza)*/
+/*rabochii kod (rastagivaet izobrah v 3 raza po gorizontali)*/
 for(i=0; i<h ; i++)
 {
 	for(j=0; j<w ; j++)
